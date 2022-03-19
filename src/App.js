@@ -1,10 +1,12 @@
 import './App.css';
 import Device from './components/Device/Device';
+import Watch from './components/Watch/Watch';
 
 function App() {
   return (
     <div className="App">
-      <Device name="iPhone" price="13k"></Device>
+      {/* <Device name="iPhone" price="13k"></Device> */}
+      <Watch></Watch>
     </div>
   );
 }
